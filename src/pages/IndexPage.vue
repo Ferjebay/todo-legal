@@ -65,7 +65,7 @@
         ¿Como funciona?
       </div>
       <div class="text-center q-mt-xl">
-        <img src="/public/img1.JPG">
+        <img src="/img1.JPG">
       </div>
       <div class="text-center q-pt-lg q-pb-xl q-mt-sm">
         Este es un servicio gratuito de TodoLegal
@@ -94,7 +94,7 @@
         class="row text-center q-mt-xl justify-center" 
         >
         <div class="col-sm-8 q-py-xl rounded-borders" style="border: 3px #448aff dashed">
-          <img src="/public/nube.png" style="width: 34%;">
+          <img src="/nube.png" style="width: 34%;">
           <label style="display: block" class="q-mt-lg">Arrastra y suelta tus documentos aqui o
             <span @click="openExplorerFile"
               class="text-weight-medium text-indigo-14">
