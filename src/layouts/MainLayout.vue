@@ -51,7 +51,7 @@
       <q-btn-group spread>
         <q-btn v-if="dataStore.files.length > 0"
           @click="dataStore.setFiles([])" color="purple" 
-          class="q-py-md text-light-blue-9 bg-grey-1btnFooterMovil" label="Regresar" />
+          class="q-py-md text-light-blue-9 bg-grey-1 btnFooterMovil" label="Regresar" />
         <q-btn @click="dataStore.setSendFiles( true )" :loading="dataStore.loading"
           color="purple" class="q-py-md bg-light-blue-9" label="Siguiente" />
       </q-btn-group>
